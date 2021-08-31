@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;  
+    }
+
+body{
+    height: 1000px;
+}
+
+
+.caixa1{
+    position: absolute;
+    border: 5px solid black;
+    width: 10%;
+    height: 150px; 
+}
+
+.caixa2{
+    position: absolute;
+    border: 5px solid black;
+    width: 10%;
+    height: 150px;
+    left: 89.2%;
+}
+
+
+.caixa3{
+    position: fixed;
+    border: 5px solid black;
+    width: 10%;
+    height: 150px;
+    left: 45%;
+    top: 74.8%;  
+}
+
+.CaixaCentro{
+    position: relative;
+    border: 5px solid black;
+    width: 60%;
+    height: 75px;
+    box-sizing: content-box;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+p {
+    text-align: center;
+    padding-top: 25px;
+}
