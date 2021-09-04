@@ -18,7 +18,7 @@ header {
 }
 
 body { 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.836), rgba(252, 252, 245, 0.507)), url("/check-point/img/ilustracaoCopia.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.836), rgba(252, 252, 245, 0.507)), url("../img/ilustracao.png");
     background-position: top;
     background-repeat: repeat-y;
     background-color: #C0C0C0;
