@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <header><img src="img/logo.png" alt="">
+        <h1>Formulário do Site</h1>
+    </header>
+
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <div>
+                <label for="nome">Nome: </label>
+                <input id="fnome" type="text" name="nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input id="email" type="tel" name="email" >
+            </div>
+
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+
+            <div>
+                <label for="">Escolha um curso:</label>
+                <select name="Curso">
+                    <option value="Back-End">Back-End</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Metodologias">Metodologias ágeis</option>
+                </select>
+                
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>        
+
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
