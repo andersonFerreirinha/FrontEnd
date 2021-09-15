@@ -1,0 +1,33 @@
+@keyframes bola-de-futebol {
+    from {
+        margin-left: 0%;
+        opacity: 0%;
+        transform: rotate(0deg) translate(100px);
+    }
+
+    to {
+        margin-left: 90%;
+        opacity: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+.bola-de-futebol {
+    height: 150px;
+    width: 150px;
+    animation: bola-de-futebol 4s infinite;
+}
+
+button {
+    margin-top: 100px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    background: blue;
+    transition: background-color 2s;
+  }
+  
+ 
+  button:hover {
+    background: red;
+  }
