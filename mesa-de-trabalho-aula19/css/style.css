@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{ 
+    margin: 5vh auto;
+    width: 70%;
+    height: 10vh 5vh;;
+}
+
+
+
+.conteiner{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;  
+}
+
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;  
+}
