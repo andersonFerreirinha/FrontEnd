@@ -63,7 +63,7 @@ body {
 
 .fixed-bg {
 
-    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("../img/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://images.unsplash.com/photo-1591717707289-ff546dc1efee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -118,7 +118,7 @@ body {
 }
 
 #imagem-fundo-sob{
-    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://i.ytimg.com/vi/zb8RPslTrEc/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://media-manager.noticiasaominuto.com.br/1920/naom_5b98da3c04a72.jpg");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -127,7 +127,7 @@ body {
 }
 
 #imagem-fundo-familia{
-    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://media-manager.noticiasaominuto.com.br/1920/naom_5b98da3c04a72.jpg");
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836), rgba(17, 17, 16, 0.507)), url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/05/CON_aty011.1033_lm_v1-scaled-1.jpg");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
